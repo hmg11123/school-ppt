@@ -1,0 +1,42 @@
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.subHeader {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  animation: opacity 1s forwards;
+  position: fixed;
+}
+
+.subHeader ul {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.subHeader ul li {
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subHeader ul li a {
+  padding: 10px 50px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.subHeader ul li a:hover {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
