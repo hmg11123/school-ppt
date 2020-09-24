@@ -1,4 +1,5 @@
-@import 'reset.css';
-@import 'Header.css';
-@import 'subHeader.css';
-@import 'App.css';
+@import "./reset.css";
+@import "./Header.css";
+@import "./subHeader.css";
+@import "./App.css";
+@import "./screen01.css";
