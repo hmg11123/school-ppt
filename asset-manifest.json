@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/school-ppt/static/css/main.aa988cac.chunk.css",
+    "main.js": "/school-ppt/static/js/main.940d8aba.chunk.js",
+    "main.js.map": "/school-ppt/static/js/main.940d8aba.chunk.js.map",
+    "runtime-main.js": "/school-ppt/static/js/runtime-main.c36db4e7.js",
+    "runtime-main.js.map": "/school-ppt/static/js/runtime-main.c36db4e7.js.map",
+    "static/css/2.8530d09a.chunk.css": "/school-ppt/static/css/2.8530d09a.chunk.css",
+    "static/js/2.672b93ff.chunk.js": "/school-ppt/static/js/2.672b93ff.chunk.js",
+    "static/js/2.672b93ff.chunk.js.map": "/school-ppt/static/js/2.672b93ff.chunk.js.map",
+    "index.html": "/school-ppt/index.html",
+    "precache-manifest.b72ad651d6082f17dfd8d2a6c98a13d9.js": "/school-ppt/precache-manifest.b72ad651d6082f17dfd8d2a6c98a13d9.js",
+    "service-worker.js": "/school-ppt/service-worker.js",
+    "static/css/2.8530d09a.chunk.css.map": "/school-ppt/static/css/2.8530d09a.chunk.css.map",
+    "static/css/main.aa988cac.chunk.css.map": "/school-ppt/static/css/main.aa988cac.chunk.css.map",
+    "static/js/2.672b93ff.chunk.js.LICENSE.txt": "/school-ppt/static/js/2.672b93ff.chunk.js.LICENSE.txt",
+    "static/media/image.png": "/school-ppt/static/media/image.4b78e313.png",
+    "static/media/slick-theme.css": "/school-ppt/static/media/slick.f97e3bbf.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c36db4e7.js",
+    "static/css/2.8530d09a.chunk.css",
+    "static/js/2.672b93ff.chunk.js",
+    "static/css/main.aa988cac.chunk.css",
+    "static/js/main.940d8aba.chunk.js"
+  ]
+}
