@@ -23,8 +23,7 @@
 }
 
 /*----------------------------------------------------*/
-
-.screen01 .slick__box .screen01_circle {
+.slick__box .screen01_circle {
   width: 1000px;
   height: 1000px;
   display: flex;
@@ -139,14 +138,17 @@
 }
 
 .slick__box03 .slick_main .slick_title {
-  font-size: 36px;
-}
-
-.slick__box03 .slick_main .title {
   width: 700px;
   display: flex;
   justify-content: space-between;
+  font-size: 36px;
 }
+
+/* .slick__box03 .slick_main .title {
+  width: 700px;
+  display: flex;
+  justify-content: space-between;
+} */
 
 .slick__box03 .slick_main .contry_content {
   margin-left: 200px;
