@@ -1,0 +1,16 @@
+.MainSlider .slick__box01-3 {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../components/image/screen03Bg01.png");
+  background-size: cover;
+}
+
+.MainSlider .slick__box01-3 .title-3 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 60px;
+}
