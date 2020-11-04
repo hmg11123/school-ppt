@@ -2,15 +2,21 @@ import React from "react";
 import Fade from "react-reveal/Fade";
 
 class slick__box01 extends React.Component {
-  render() {
-    return (
-      <Fade>
-        <div className="slick__box01-3 slick__box">
-          <div className="title-3">빅데이터 의료분야 이용사례</div>
-        </div>
-      </Fade>
-    );
-  }
+ render() {
+  return (
+   <div className="slick__box01 slick__box">
+    <div className="screen01_circle">
+     <Fade>
+      <ul>
+       <li>빅데이터 이용사례</li>
+       <li></li>
+       <li>의료분야</li>
+      </ul>
+     </Fade>
+    </div>
+   </div>
+  );
+ }
 }
 
 export default slick__box01;

@@ -8,29 +8,31 @@ import slick__box02 from "./screen03/slick__box02";
 import slick__box03 from "./screen03/slick__box03";
 import slick__box04 from "./screen03/slick__box04";
 import slick__box05 from "./screen03/slick__box05";
+import slick__box06 from "./screen03/slick__box06";
 
 class screen03 extends React.Component {
-  render() {
-    const settings = {
-      infinite: true,
-      speed: 500,
-      slidesToShow: 1,
-      slidesToScroll: 1,
-    };
-    return (
-      <div className="screen03">
-        <div className="MainSlider">
-          <Slider {...settings}>
-            <Route exact component={slick__box01} />
-            <Route exact component={slick__box02} />
-            <Route exact component={slick__box03} />
-            <Route exact component={slick__box04} />
-            <Route exact component={slick__box05} />
-          </Slider>
-        </div>
-      </div>
-    );
-  }
+ render() {
+  const settings = {
+   infinite: true,
+   speed: 500,
+   slidesToShow: 1,
+   slidesToScroll: 1,
+  };
+  return (
+   <div className="screen03">
+    <div className="MainSlider">
+     <Slider {...settings}>
+      <Route exact component={slick__box01} />
+      <Route exact component={slick__box02} />
+      <Route exact component={slick__box03} />
+      <Route exact component={slick__box04} />
+      <Route exact component={slick__box05} />
+      <Route exact component={slick__box06} />
+     </Slider>
+    </div>
+   </div>
+  );
+ }
 }
 
 export default screen03;

@@ -1,32 +1,36 @@
 import React from "react";
-import image03_3 from "../../image/image03_3.png";
 
 class slick__box04 extends React.Component {
-  render() {
-    return (
-      <div className="slick__box04-3 slick__box">
-        <div className="slick__main">
-          <div className="title-3">
-            <p>제약회사 빅데</p>
-            <p>이터 활용사례</p>
-          </div>
-          <div className="content-3">
-            <div className="txt">
-              <div className="dot">■</div>
-              <div>
-                제약회사에서도 빅데이터를 활용하고 있으며 신약개발, 임상실허므
-                판매/마케팅 영역까지 전 영역에 빅데이터를 적용하고 있다.
-                신약개발 시 제품개발 및 임상실험에 많은 돈을 투자해야 한다.
-                하지만 기존의 의약품의 대한 선호도 및 부작용 등 관련 데이터를
-                활용하면 제품개발비용을 어느 정도 줄일 수 있다.
-              </div>
-            </div>
-            <img src={image03_3} />
-          </div>
-        </div>
+ render() {
+  return (
+   <div className="slick__box04 slick__box">
+    <div className="slick_rectangle">
+     <div className="rectangle">
+      <div className="slick_title">
+       <span className="title">이용사례</span>
+       <span className="subTitle">- 임상 의사결정지원</span>
       </div>
-    );
-  }
+      <div className="slick_content">
+       <span>
+        <div className="first_content all_content">
+         <p>-질환별 새로운 삭술정보와 치료법 등을 의료진에게 통합 제공</p>
+         <p>
+          -영상자료, 유전정보, 투약 및 수술기록 등 데이터를 종합적으로 분석하여,
+          인공지능과 결합한 임상의상결정 지원 (에 : 뷰노(본에이지), 루닛(scope),
+          ibm(왓슨)
+         </p>
+        </div>
+        <div className="second_content"></div>
+       </span>
+       <span>
+        <div className="slick__box04_img"></div>
+       </span>
+      </div>
+     </div>
+    </div>
+   </div>
+  );
+ }
 }
 
 export default slick__box04;

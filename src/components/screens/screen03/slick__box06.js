@@ -1,6 +1,6 @@
 import React from "react";
 
-class slick__box02 extends React.Component {
+class slick_box06 extends React.Component {
  render() {
   return (
    <div className="slick__box04 slick__box">
@@ -8,21 +8,24 @@ class slick__box02 extends React.Component {
      <div className="rectangle">
       <div className="slick_title">
        <span className="title">이용사례</span>
-       <span className="subTitle">- 개인 맞춤형 의료/관리</span>
+       <span className="subTitle">
+        - 보건의료 빅데이터는 신약개발 과정에도 활용
+       </span>
       </div>
       <div className="slick_content">
        <span>
         <div className="first_content all_content">
          <p>
-          - 연령별 , 지역별, 소득수준벌 맞춤형 건강증진/검진 서비스, 만성질환
-          맞춤형 관리 - 개인의 신체상태, 식습관, 생활패턴 등 의료데이터를
-          활여하여 질병예측 및 예방을 위하 건강관리 (셀바스ai 셀비 체크업)
+          -환자를 모집하기 어려운 경우 빅데이터가 임상시험 대조군을 대체할 수도
+          있을 것이란 예측
          </p>
          <p>
-          -유전정보 분석을 통한 미래발병 가능 질환 예측 및 병원 의료진 추천
+          -기존의 약물치료가 효과가 없다면 유전정보를 활용해 환자의 약물
+          반응성을 알 수 있다.
          </p>
          <p>
-          -사업장별(단체) , 근로환경별(개인) 건강위해 요소 예측 및 조기 정보
+          -장기적으로 볼 때 의료 데이터 활용으로 의료 서비스 패러다임이 변하게
+          되면 사회적 비용도 감소할 전망이다.
          </p>
         </div>
         <div className="second_content"></div>
@@ -38,4 +41,4 @@ class slick__box02 extends React.Component {
  }
 }
 
-export default slick__box02;
+export default slick_box06;

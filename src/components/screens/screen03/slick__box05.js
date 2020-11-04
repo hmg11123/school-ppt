@@ -1,34 +1,39 @@
 import React from "react";
-import image03_4 from "../../image/image03_4.png";
 
 class slick__box05 extends React.Component {
-  render() {
-    return (
-      <div className="slick__box05-3 slick__box">
-        <div className="slick__main">
-          <div className="title-3">
-            <p>IBM 왓슨의</p>
-            <p>의료분야 활용</p>
-          </div>
-          <div className="content-3">
-            <div className="txt">
-              <div className="dot">■</div>
-              <div>
-                사람의 말을 이해하고 대답할 수 있는 IBM의 인공지능 슈퍼 컴퓨터인
-                왓슨은 방대한 데이터를 분석하여 환자를 진단하여 의사에게
-                치료법을 추천해준다. 수백만 건의 진단서, 환자기록, 의료서적 등의
-                방대한 데이터를 바탕으로 왓슨 컴퓨터는 순식간에 분석을 통해
-                확률이 가장 높은 병명과 성공 가능성이 높은 치료법을 동시에
-                의사에게 조언을 한다. 그럼으로써 의사마다 다른 판단을 내릴 수
-                있는 경우 판단의 오차를 크게 줄이고 객관성을 높일 수 있다.
-              </div>
-            </div>
-            <img src={image03_4} />
-          </div>
-        </div>
+ render() {
+  return (
+   <div className="slick__box04 slick__box">
+    <div className="slick_rectangle">
+     <div className="rectangle">
+      <div className="slick_title">
+       <span className="title">이용사례</span>
+       <span className="subTitle">- 우리나라 활용 사례</span>
       </div>
-    );
-  }
+      <div className="slick_content">
+       <span>
+        <div className="first_content all_content">
+         <p>
+          -2018년, 정부는 데이터 경제 활성화 규제 혁신을 목표로 39개 병원에
+          바이오 헬스 빅데이터 구축을 위한 사업을 추진
+         </p>
+         <p>
+          -112억 원을 투자해 2020년 12월까지 삼성서울병원, 연세의료원 등 39개
+          의료기관과 7개 기업에 전자의무기록제도(EMR)를 표준화하고 네트워크를
+          재구축하는 것을 목표로 한다.
+         </p>
+        </div>
+        <div className="second_content"></div>
+       </span>
+       <span>
+        <div className="slick__box04_img"></div>
+       </span>
+      </div>
+     </div>
+    </div>
+   </div>
+  );
+ }
 }
 
 export default slick__box05;
