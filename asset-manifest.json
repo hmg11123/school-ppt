@@ -1,30 +1,31 @@
 {
   "files": {
-    "main.css": "/school-ppt/static/css/main.954ce6cd.chunk.css",
-    "main.js": "/school-ppt/static/js/main.c23dac8e.chunk.js",
-    "main.js.map": "/school-ppt/static/js/main.c23dac8e.chunk.js.map",
+    "main.css": "/school-ppt/static/css/main.42a70c67.chunk.css",
+    "main.js": "/school-ppt/static/js/main.b069e471.chunk.js",
+    "main.js.map": "/school-ppt/static/js/main.b069e471.chunk.js.map",
     "runtime-main.js": "/school-ppt/static/js/runtime-main.c36db4e7.js",
     "runtime-main.js.map": "/school-ppt/static/js/runtime-main.c36db4e7.js.map",
     "static/css/2.8530d09a.chunk.css": "/school-ppt/static/css/2.8530d09a.chunk.css",
-    "static/js/2.8b49deea.chunk.js": "/school-ppt/static/js/2.8b49deea.chunk.js",
-    "static/js/2.8b49deea.chunk.js.map": "/school-ppt/static/js/2.8b49deea.chunk.js.map",
+    "static/js/2.117fa99b.chunk.js": "/school-ppt/static/js/2.117fa99b.chunk.js",
+    "static/js/2.117fa99b.chunk.js.map": "/school-ppt/static/js/2.117fa99b.chunk.js.map",
     "index.html": "/school-ppt/index.html",
-    "precache-manifest.a8eb1a48ce885355c127e659bdd7d956.js": "/school-ppt/precache-manifest.a8eb1a48ce885355c127e659bdd7d956.js",
+    "precache-manifest.f2987ea29cd22f29078746cb40049f5e.js": "/school-ppt/precache-manifest.f2987ea29cd22f29078746cb40049f5e.js",
     "service-worker.js": "/school-ppt/service-worker.js",
     "static/css/2.8530d09a.chunk.css.map": "/school-ppt/static/css/2.8530d09a.chunk.css.map",
-    "static/css/main.954ce6cd.chunk.css.map": "/school-ppt/static/css/main.954ce6cd.chunk.css.map",
-    "static/js/2.8b49deea.chunk.js.LICENSE.txt": "/school-ppt/static/js/2.8b49deea.chunk.js.LICENSE.txt",
+    "static/css/main.42a70c67.chunk.css.map": "/school-ppt/static/css/main.42a70c67.chunk.css.map",
+    "static/js/2.117fa99b.chunk.js.LICENSE.txt": "/school-ppt/static/js/2.117fa99b.chunk.js.LICENSE.txt",
     "static/media/image.png": "/school-ppt/static/media/image.4b78e313.png",
     "static/media/image4.png": "/school-ppt/static/media/image4.a3884b5f.png",
     "static/media/image5.png": "/school-ppt/static/media/image5.42cf5207.png",
     "static/media/image6.png": "/school-ppt/static/media/image6.e2f9a297.png",
+    "static/media/style.css": "/school-ppt/static/media/screen03Bg02.c153c28d.png",
     "static/media/slick-theme.css": "/school-ppt/static/media/slick.f97e3bbf.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.c36db4e7.js",
     "static/css/2.8530d09a.chunk.css",
-    "static/js/2.8b49deea.chunk.js",
-    "static/css/main.954ce6cd.chunk.css",
-    "static/js/main.c23dac8e.chunk.js"
+    "static/js/2.117fa99b.chunk.js",
+    "static/css/main.42a70c67.chunk.css",
+    "static/js/main.b069e471.chunk.js"
   ]
 }
