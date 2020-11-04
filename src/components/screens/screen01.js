@@ -18,20 +18,18 @@ class screen01 extends React.Component {
       speed: 500,
       slidesToShow: 1,
       slidesToScroll: 1,
-      autoplay: false,
-      autoplaySpeed: 6000,
     };
     return (
       <div className="screen01">
         <div className="MainSlider">
           <Slider {...settings}>
-            <Route component={slick__box01} />
-            <Route component={slick__box02} />
-            <Route component={slick__box03} />
-            <Route component={slick__box04} />
-            <Route component={slick__box05} />
-            <Route component={slick__box06} />
-            <Route component={slick__box07} />
+            <Route exact component={slick__box01} />
+            <Route exact component={slick__box02} />
+            <Route exact component={slick__box03} />
+            <Route exact component={slick__box04} />
+            <Route exact component={slick__box05} />
+            <Route exact component={slick__box06} />
+            <Route exact component={slick__box07} />
           </Slider>
         </div>
       </div>

@@ -282,6 +282,10 @@
   font-weight: 600;
 }
 
+.slick__box07 .slick_content .first_main .first_content {
+  margin-bottom: 50px;
+}
+
 .slick__box07 .slick_content .second_main {
   margin-left: 40px;
 }
