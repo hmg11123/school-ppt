@@ -1,7 +1,20 @@
 import React from "react";
+import Button from "@material-ui/core/Button";
+import Dialog from "@material-ui/core/Dialog";
+import DialogContent from "@material-ui/core/DialogContent";
+import DialogActions from "@material-ui/core/DialogActions";
+import image03_4 from "../../image/image03_4.png";
 
 class slick__box05 extends React.Component {
+ constructor(props) {
+  super(props);
+
+  this.state = {
+   isDialogOpen: false,
+  };
+ }
  render() {
+  const { isDialogOpen } = this.state;
   return (
    <div className="slick__box04 slick__box">
     <div className="slick_rectangle">
@@ -10,7 +23,7 @@ class slick__box05 extends React.Component {
        <span className="title">이용사례</span>
        <span className="subTitle">- 우리나라 활용 사례</span>
       </div>
-      <div className="slick_content">
+      <div className="slick_content slick02_content">
        <span>
         <div className="first_content all_content">
          <p>
@@ -23,10 +36,29 @@ class slick__box05 extends React.Component {
           재구축하는 것을 목표로 한다.
          </p>
         </div>
-        <div className="second_content"></div>
+        <div className="second_content">
+         <div className="image03_1 image03">
+          <img src={image03_4} onClick={this._isDialogOpenToggle} />
+         </div>
+        </div>
        </span>
        <span>
-        <div className="slick__box04_img"></div>
+        {/* Dialog Area */}
+        <Dialog
+         onClose={this._isDialogOpenToggle}
+         aria-labelledby="customized-dialog-title"
+         open={isDialogOpen}
+         fullWidth={true}
+        >
+         <DialogContent>
+          <img src={image03_4} />
+         </DialogContent>
+         <DialogActions>
+          <Button color="primary" onClick={this._isDialogOpenToggle}>
+           끄기
+          </Button>
+         </DialogActions>
+        </Dialog>
        </span>
       </div>
      </div>
@@ -34,6 +66,12 @@ class slick__box05 extends React.Component {
    </div>
   );
  }
+ _isDialogOpenToggle = () => {
+  this.setState({
+   isDialogOpen: !this.state.isDialogOpen,
+   // ! 는 부정 연산자
+  });
+ };
 }
 
 export default slick__box05;
